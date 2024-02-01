@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Учебник-справочник 📖 по конструкторам в R:ED</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta&family=Philosopher&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta&family=Philosopher:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta&family=Philosopher:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+       <div class="header-inner">
+        <a href="https://r.ed-world" class="logo"><img src="https://static.tildacdn.com/tild3132-6365-4337-b466-643031363335/RED_logo_white.svg" class="tmenu-mobile__imglogo" imgfield="img" style="max-width: 186px; width: 186px;" alt="Wiki R:ED"></a>
+      <div class="search">
+        <form class="searcher">
+            <input class="place_for_search" type="text" id="text-to-find" value="" placeholder="Поиск по ключевым словам" autofocus> 
+            <input class="button_for_turn_back" type="button" onclick="javascript: FindOnPage('text-to-find',false); return false;" value=" " title="Отменить поиск">
+            <input class="button_for_search" type="submit" onclick="javascript: FindOnPage('text-to-find',true); return false;" value=" " title="Начать поиск">
+          </form>
+      </div>
+        <div class="header-inner_nav--box"></div>
+        <a href="" class="header-inner_nav">Wiki</a>
+        <a href="FAQ.html" class="header-inner_nav">FAQ</a>
+       <a href="https://store.r-ed.world/wiki/controllers" class="header-inner_nav">Контроллеры</a>
+        <a href="https://store.r-ed.world/wiki/sensors" class="header-inner_nav">Датчики</a>
+       <a href="https://store.r-ed.world/wiki/performers" class="header-inner_nav">Исполнители</a>
+       <a href="https://store.r-ed.world/wiki/software" class="header-inner_nav">Программное обеспечение</a>
+       <a href="https://store.r-ed.world/sets" class="header-inner_nav">Комплектации</a>
+    </div>
+    </header>
+    <div class="border">
+    <h1 class="title">
+        <a class="red">R:ED</a>
+        <a>Wiki</a>
+    </h1>
+</div>
+ <div class="category">
+<div class="controller">
+    <a href="./controller.html">
+    <img src="images/controller.png"  height="120px" width="120px"></a>
+    <a href="./controller.html" class="category_text">Контроллеры</a>
+</div>
+<div class="executor">
+    <a href="https://store.r-ed.world/wiki/performers"><img src="images/executor.png" height="120px" width="120px" alt=""></a>
+    <a href="https://store.r-ed.world/wiki/performers" class="executor_text">Исполнители</a>
+</div>
+<div class="sensor">
+    <a href="https://store.r-ed.world/wiki/sensors"><img src="images/sensor.png"height="120px" width="150px" alt=""></a>
+    <a href="https://store.r-ed.world/wiki/sensors" class= "sensor_text">Датчики</a>
+</div>
+<div class="PO">
+    <a href=""><img src="images/prog_work.png" height="150px" width="180px" alt=""></a>
+    <a href="" class="PO_text">Программное обеспечение</a>
+</div>
+<div class="complections">
+    <a href="https://store.r-ed.world/sets"><img src="images/complections.png" height="120px" width="180px"></a>
+    <a href="https://store.r-ed.world/sets" class="complections_text">Комплектации</a>
+</div>
+ </div>
+ <link rel="stylesheet" href="search.js">
+ <link rel="stylesheet" href="./js/search.js">
+ <link rel="stylesheet" href="js/search.js">
+ <script src="js/search.js"></script>
+ <script src="./js/search.js"></script>
+ <script src="search.js"></script>
+ <h2 class="second_title">Полезные видео</h2>
+ <div class="video"><iframe class="first_video" width="560" height="310" src="https://www.youtube.com/embed/2bdm_hxyAlE" title="Обновленная база знаний R:ED" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class="second_video" width="560" height="310" src="https://www.youtube.com/embed/hGr79tO_ITU" title="Новый набор для образовательной робототехники R:ED X" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div class="contacts"><div class="mail-help">Техническая поддержка<h1 class="contacts_email"><a href="mailto:red.help@r-ed.world" class="contacts_email-text">red.help@r-ed.world</a></h1></div>
+<div class="tg-help">Техническая поддержка в Telegram<a href="https://t.me/redspbsupportbot" class="tg-help_logo"><img src="images/telegram.png" alt=""></a></div></div>
+
+<footer class="footer"><div class="footer-inner"><div footer-logo_copyright> <div class="footer-logo_text"> <a href="https://r-ed.world/" class="footer_logo"><img src="images/RED_logo2.svg" alt="" height="200px" width="100px"></a> <div class="footer_first"><a href="https://store.r-ed.world/privacy" class="footer_text">Политика конфиденциальности</a><a href="https://store.r-ed.world/public-offer" class="footer_text">Договор публичной оферты</a></div> <div class="footer_second"><a href="https://store.r-ed.world/warranty" class="footer_text">Контакты</a><a href="https://store.r-ed.world/contact-us" class="footer_text">Гарантийные обязательства</a></div></div></div><a href="" class="footer_copyright">© Школа Робототехники СПб</a></div></footer>
+</body>
+</html>
