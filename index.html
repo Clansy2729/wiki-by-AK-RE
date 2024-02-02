@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="adapt.css">
     <title>Учебник-справочник 📖 по конструкторам в R:ED</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,15 +33,30 @@
           </form>
       </div>
         <div class="header-inner_nav--box"></div>
+        <button id="callback-button" class="header__button">Обратная связь</button>
         <a href="" class="header-inner_nav">Wiki</a>
         <a href="FAQ.html" class="header-inner_nav">FAQ</a>
-       <a href="https://store.r-ed.world/wiki/controllers" class="header-inner_nav">Контроллеры</a>
+       <a href="./controller.html" class="header-inner_nav">Контроллеры</a>
         <a href="https://store.r-ed.world/wiki/sensors" class="header-inner_nav">Датчики</a>
        <a href="https://store.r-ed.world/wiki/performers" class="header-inner_nav">Исполнители</a>
-       <a href="https://store.r-ed.world/wiki/software" class="header-inner_nav">Программное обеспечение</a>
+       <a href="./PO.html" class="header-inner_nav">Программное обеспечение</a>
        <a href="https://store.r-ed.world/sets" class="header-inner_nav">Комплектации</a>
     </div>
     </header>
+
+
+    <div class="modal" id="modal-1">
+        <div class="modal__content">
+          <button class="modal__close-button"><img src="./img/close.svg" width="12" alt=""></button>
+         <input type="text" name="" id="back_name" class="back_name"placeholder="Введите ваше имя">
+         <input type="text" class="back_message"  id="back_message"   placeholder="Введите ваше сообщение">
+         <button type="submit" class="back_button" id="back_button">Отправить</button>
+        </div>
+      </div>
+
+
+
+
     <div class="border">
     <h1 class="title">
         <a class="red">R:ED</a>
@@ -75,6 +92,8 @@
  <script src="js/search.js"></script>
  <script src="./js/search.js"></script>
  <script src="search.js"></script>
+ <script src="./scripts.js"></script>
+ <link rel="stylesheet" href="./scripts.js">
  <h2 class="second_title">Полезные видео</h2>
  <div class="video"><iframe class="first_video" width="560" height="310" src="https://www.youtube.com/embed/2bdm_hxyAlE" title="Обновленная база знаний R:ED" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <iframe class="second_video" width="560" height="310" src="https://www.youtube.com/embed/hGr79tO_ITU" title="Новый набор для образовательной робототехники R:ED X" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

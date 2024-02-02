@@ -284,3 +284,69 @@ flex-direction: column;
     color: #1B1B1B;
     font: 14px 'Nunito', Arial, sans-serif;
 }
+.header__button{
+    background-color: black;
+    color:rgb(205, 204, 204);
+    border: none;
+}
+.vopros{
+    color:rgb(30, 23, 23);
+    font: 28px 'Nunito', Arial, sans-serif;
+}
+.otvet{
+    color:rgb(30, 23, 23);
+    font: 23px 'Nunito', Arial, sans-serif;
+}
+.FAQ{
+    margin-left: 45%;
+}
+.spicok_po {
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.section_po {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+.instruction_po {
+    flex-direction: column;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 70px;
+    align-items: center;
+}
+.red3 {
+    flex-direction: column;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 100px;
+    align-items: center;
+}
+.text_PO{
+    color:rgb(30, 23, 23);
+    font: 21px 'Nunito', Arial, sans-serif; 
+}
+.FAQ_full{
+    margin-left: 10%;
+    display: flex;
+   flex-direction: column;
+   gap: 50px;
+}
+.otvet{
+    margin-top: 20px;
+}
+.h2_FAQ{
+    margin-left: 24%;
+}
+.background_FAQ{
+    background-color: rgb(205, 204, 204);
+}
+.body {
+    padding-left: calc(50% - 640px);
+    padding-right: calc(50% - 640px);
+  }
